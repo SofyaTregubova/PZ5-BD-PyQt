@@ -5,7 +5,6 @@ import sys
 os.environ[
     'QT_QPA_PLATFORM_PLUGIN_PATH'] = r'C:\Users\Софья\AppData\Roaming\Python\Python39\site-packages\PyQt5\Qt5\plugins'
 
-# ДАЛЕЕ ВЕСЬ ТВОЙ ИСХОДНЫЙ КОД БЕЗ ИЗМЕНЕНИЙ
 import requests
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
                              QLabel, QLineEdit, QPushButton, QTextEdit, QComboBox,
@@ -291,4 +290,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
