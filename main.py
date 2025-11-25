@@ -1,7 +1,6 @@
 import os
 import sys
 
-# 🔥 Устанавливаем ПРАВИЛЬНЫЙ путь к плагинам
 os.environ[
     'QT_QPA_PLATFORM_PLUGIN_PATH'] = r'C:\Users\Софья\AppData\Roaming\Python\Python39\site-packages\PyQt5\Qt5\plugins'
 
@@ -291,4 +290,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
